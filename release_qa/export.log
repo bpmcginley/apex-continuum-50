@@ -1,0 +1,18 @@
+Pages:           7
+Page size:       595.276 x 841.89 pts (A4)
+Underfull \hbox (badness 1259) in paragraph at lines 194--195
+Underfull \hbox (badness 10000) in paragraph at lines 209--209
+Underfull \hbox (badness 3138) in paragraph at lines 209--209
+Underfull \hbox (badness 2894) in paragraph at lines 321--322
+Underfull \hbox (badness 7397) in paragraph at lines 323--324
+Underfull \hbox (badness 10000) in paragraph at lines 326--327
+Underfull \hbox (badness 1184) in paragraph at lines 327--328
+Warning: failed to launch javaldx - java may not function correctly
+convert <WORKSPACE>/final_release/Apex_Continuum_50_v2_Investor_Pitch_Deck_FINAL.pptx as a Impress document -> <WORKSPACE>/final_release/Apex_Continuum_50_v2_Investor_Pitch_Deck_FINAL.pdf using filter : impress_pdf_Export:{"ReduceImageResolution":{"type":"boolean","value":"false"},"UseLosslessCompression":{"type":"boolean","value":"true"}}
+Overwriting: <WORKSPACE>/final_release/Apex_Continuum_50_v2_Investor_Pitch_Deck_FINAL.pdf
+Pages:           13
+Page size:       960.009 x 540 pts
+memory.max 2499997696
+memory.swap.max 0
+memory.peak 245956608
+memory.swap.current 0

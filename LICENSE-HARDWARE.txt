@@ -1,0 +1,11 @@
+CERN Open Hardware Licence Version 2 — Permissive (CERN-OHL-P v2)
+
+Copyright (c) 2026 Bruce McGinley
+
+All 3D CAD models (.stl), mechanical geometries, header baffle specifications,
+and physical plant layouts in this repository are licensed under the CERN Open
+Hardware Licence Version 2 — Permissive (CERN-OHL-P-2.0). You may freely use,
+modify, manufacture, and distribute physical hardware derived from these designs
+for academic or commercial purposes worldwide.
+
+Full legal text: https://ohwr.org/cern_ohl_p_v2.txt

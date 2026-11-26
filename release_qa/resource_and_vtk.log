@@ -1,0 +1,48 @@
+memory.max 2499997696
+memory.swap.max 0
+memory.swap.current 0
+MemAvailable:   19900448 kB
+SwapTotal:       4194304 kB
+SwapFree:        4194288 kB
+       Avail
+ 18457878528
+903896358912
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2312                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _9a9aeb73-20260127 OPENFOAM=2312 patch=260127 version=2312
+Arch   : "LSB;label=32;scalar=64"
+Exec   : foamToVTK -case <WORKSPACE>/.local/share/apex-phase-b/apex-v2-hdrf9-rect -time 0.758263 -no-boundary -fields (U p)
+Date   : Nov 25 2026
+Time   : 22:18:19
+Host   : <HOST>
+PID    : 5430
+I/O    : uncollated
+Case   : <WORKSPACE>/.local/share/apex-phase-b/apex-v2-hdrf9-rect
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Including fields (U p)
+
+Create time
+
+Initial memory 118740 kB
+Create mesh for time = 0.758263
+
+VTK mesh topology: 0.04 s, 132216 kB
+Time: 0.758263
+    volScalar    : p
+    volVector    : U
+    Internal  : "VTK/apex-v2-hdrf9-rect_1838/internal.vtu"
+Wrote in 0.16 s, 149040 kB
+
+End: 0.2 s, 149040 kB (peak)
+
+memory.peak 161771520

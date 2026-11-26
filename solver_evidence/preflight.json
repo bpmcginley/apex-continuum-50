@@ -1,0 +1,113 @@
+{
+  "status": "PASS",
+  "shortfalls": [],
+  "kernel": "6.18.58.1-microsoft-standard-WSL2",
+  "wsl_memory": {
+    "MemTotal": 23084810240,
+    "MemAvailable": 21536010240,
+    "SwapTotal": 4294967296,
+    "SwapFree": 4294967296
+  },
+  "wsl_swap_used_bytes": 0,
+  "scope_mem_in_use_bytes": 6008832,
+  "effective_scope_cap_bytes": 2499997696,
+  "effective_scope_swap_cap_bytes": 0,
+  "cgroup_limits": [
+    {
+      "path": "/sys/fs/cgroup/user.slice/user-1000.slice/<REDACTED_EMAIL>/app.slice/apex-v2-preflight.scope",
+      "memory.max": "2499997696",
+      "memory.swap.max": "0"
+    },
+    {
+      "path": "/sys/fs/cgroup/user.slice/user-1000.slice/<REDACTED_EMAIL>/app.slice",
+      "memory.max": "max",
+      "memory.swap.max": "max"
+    },
+    {
+      "path": "/sys/fs/cgroup/user.slice/user-1000.slice/<REDACTED_EMAIL>",
+      "memory.max": "max",
+      "memory.swap.max": "max"
+    },
+    {
+      "path": "/sys/fs/cgroup/user.slice/user-1000.slice",
+      "memory.max": "max",
+      "memory.swap.max": "max"
+    },
+    {
+      "path": "/sys/fs/cgroup/user.slice",
+      "memory.max": "max",
+      "memory.swap.max": "max"
+    },
+    {
+      "path": "/sys/fs/cgroup",
+      "memory.max": "max",
+      "memory.swap.max": "max"
+    }
+  ],
+  "logical_cpus": 22,
+  "allowed_cpus": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+  ],
+  "load_average": [
+    0.97802734375,
+    0.9970703125,
+    1.02587890625
+  ],
+  "gmsh_cli": null,
+  "disk_free_bytes": {
+    "<WORKSPACE>": 26338406400,
+    "<WORKSPACE>": 908864167936
+  },
+  "executables": {
+    "ccx": "/usr/bin/ccx",
+    "pimpleFoam": "/usr/lib/openfoam/openfoam2312/platforms/linux64GccDPInt32Opt/bin/pimpleFoam",
+    "scalarTransportFoam": "/usr/lib/openfoam/openfoam2312/platforms/linux64GccDPInt32Opt/bin/scalarTransportFoam",
+    "mpirun": "/usr/bin/mpirun",
+    "timeout": "/usr/bin/timeout",
+    "gmsh_python_backend": "/usr/lib/x86_64-linux-gnu/libgmsh.so.4.12.1"
+  },
+  "python": "<WORKSPACE>/.local/share/apex-phase-b/venv/bin/python",
+  "python_packages": {
+    "CoolProp": {
+      "version": "7.2.0",
+      "path": "<WORKSPACE>/.local/share/apex-phase-b/venv/lib/python3.12/site-packages/CoolProp/__init__.py"
+    },
+    "gmsh": {
+      "version": "4.12.1",
+      "path": "/usr/lib/python3/dist-packages/gmsh.py"
+    },
+    "numpy": {
+      "version": "1.26.4",
+      "path": "/usr/lib/python3/dist-packages/numpy/__init__.py"
+    },
+    "scipy": {
+      "version": "1.11.4",
+      "path": "/usr/lib/python3/dist-packages/scipy/__init__.py"
+    },
+    "meshio": {
+      "version": "5.3.5",
+      "path": "<WORKSPACE>/.local/share/apex-phase-b/venv/lib/python3.12/site-packages/meshio/__init__.py"
+    }
+  }
+}

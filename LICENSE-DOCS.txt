@@ -1,0 +1,12 @@
+Creative Commons Attribution 4.0 International (CC-BY-4.0)
+
+Copyright (c) 2026 Bruce McGinley
+
+The scientific paper, presentation deck, audit reports, and engineering figures
+in this repository are licensed under the Creative Commons Attribution 4.0
+International License (CC-BY-4.0). You are free to share, copy, redistribute,
+adapt, remix, and build upon this material for any purpose, even commercially,
+provided you give appropriate credit to Bruce McGinley and indicate if changes
+were made.
+
+Full legal text: https://creativecommons.org/licenses/by/4.0/legalcode

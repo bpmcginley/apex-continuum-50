@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+title: "Apex-Continuum-50 v2: Zero-Trust Continuum Verification of a 50 MW Thermal-to-sCO2 Long-Duration Energy Storage Plant"
+message: "If you use this engineering baseline, CAD geometry, or solver evidence, please cite it as below."
+type: software
+authors:
+  - family-names: McGinley
+    given-names: Bruce
+version: "2.0.0"
+date-released: "2026-11-25"
+repository-code: https://github.com/bpmcginley/apex-continuum-50
+url: https://github.com/bpmcginley/apex-continuum-50/releases/tag/v2.0.0
+license:
+  - MIT
+  - CERN-OHL-P-2.0
+  - CC-BY-4.0
+keywords:
+  - long-duration energy storage
+  - thermal energy storage
+  - supercritical CO2
+  - recompression Brayton cycle
+  - printed circuit heat exchanger
+  - Inconel 740H
+  - OpenFOAM
+  - CalculiX
+  - CoolProp
+  - open hardware

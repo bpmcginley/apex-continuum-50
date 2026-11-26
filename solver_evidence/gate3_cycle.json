@@ -1,0 +1,238 @@
+{
+  "CoolProp": "7.2.0",
+  "cycle": "Phase A reheat RCBC at 192 intervals",
+  "LTR": "Variant B 0.95 m retained IN740H",
+  "header_path": "phase_b_runs/apex_v2_audit/apex-v2-hdrf9-rect/result.json",
+  "header_basis": "HDR_F9 reconstructed independently tapped case",
+  "header_loss_Pa": 6222.383165918196,
+  "headers": {
+    "phase_b_runs/apex_v2_audit/apex-v2-hdrf9-base/result.json": {
+      "duration": true,
+      "pressure_window": true,
+      "mass": true,
+      "port_preferred": false,
+      "port_fallback": false,
+      "header_pressure": false
+    },
+    "phase_b_runs/apex_v2_audit/apex-v2-hdrf9-rect/result.json": {
+      "duration": true,
+      "pressure_window": true,
+      "mass": true,
+      "port_preferred": false,
+      "port_fallback": true,
+      "header_pressure": true
+    }
+  },
+  "uncalibrated_analytic_f": 0.012073533399691803,
+  "conservative_Nu": 43.66,
+  "baseline_Nu_multiplier": 0.5942318391119702,
+  "baseline_f_multiplier": 0.9605279568415392,
+  "shaft_to_AC": 0.9786,
+  "TS_F10_charge_thermal_factor": 0.991,
+  "TS_F10_cost_USD_kWh_th": 8.99,
+  "old_gross_USD_kW": 1276.8280758511044,
+  "new_gross_USD_kW_before_controls": 1282.8280758511044,
+  "control_allowance_USD": 200000.0,
+  "duplex_savings_credited_USD": 0,
+  "LTR_temp_basis_C": 275.0,
+  "cases": {
+    "Apex_v2_Bankable_Dry": {
+      "basis": "rectified retained hardware",
+      "results_192": {
+        "iso": {
+          "ambient_C": 20,
+          "split": 0.39,
+          "main_compressor_inlet_K": 305.15,
+          "main_compressor_outlet_K": 319.6322335173118,
+          "turbine_inlet_Pa": 29230745.979408417,
+          "shaft_efficiency": 0.5496337737209982,
+          "thermal_input_J_kg": 307911.8025361544,
+          "heat_rejection_J_kg": 138673.0763032495,
+          "turbine_work_J_kg": 222807.0370888249,
+          "main_compressor_work_J_kg": 18795.210490446472,
+          "recompressor_work_J_kg": 34773.100597197066,
+          "cycle_first_law_residual": 7.525647316488214e-10,
+          "hot_tear_residual_J_kg": 0.00023172353394329548,
+          "HTR": {
+            "epsilon": 0.9604207892662991,
+            "pinch_K": 18.660291725072057,
+            "duty_J_per_kg": 512029.5871742002,
+            "hot_dp_Pa": 30605.269074023836,
+            "cold_dp_Pa": 23042.417174633712,
+            "hot_in": {
+              "p": 7991905.455072018,
+              "t": 938.5656458847409,
+              "h": 1185541.7332802354,
+              "s": 3089.5167905153253
+            },
+            "cold_in": {
+              "p": 29337612.093149994,
+              "t": 484.2629452167985,
+              "h": 588407.3806587057,
+              "s": 1964.1259978312992
+            },
+            "hot_out": {
+              "p": 7961300.214648096,
+              "t": 502.9232369418706,
+              "h": 673512.1461060352,
+              "s": 2360.7095297916635
+            },
+            "cold_out": {
+              "p": 29314569.670991376,
+              "t": 879.2985249761701,
+              "h": 1100436.967832906,
+              "s": 2742.1320499571657
+            },
+            "length_residual_m": -3.859295194530432e-08
+          },
+          "LTR": {
+            "epsilon": 0.9558973526721221,
+            "pinch_K": 10.170230164154532,
+            "duty_J_per_kg": 193754.95213665254,
+            "hot_dp_Pa": 39575.23676082395,
+            "cold_dp_Pa": 12387.907135718096,
+            "hot_in": {
+              "p": 7961300.214648096,
+              "t": 502.9232367366733,
+              "h": 673512.1458743117,
+              "s": 2360.7095293309103
+            },
+            "cold_in": {
+              "p": 29350000.0,
+              "t": 319.6322335173118,
+              "h": 283236.10224126076,
+              "s": 1184.7479389195794
+            },
+            "hot_out": {
+              "p": 7921725.0,
+              "t": 344.9505259020096,
+              "h": 479757.19373765914,
+              "s": 1894.6886427213399
+            },
+            "cold_out": {
+              "p": 29337612.093149994,
+              "t": 492.75300657251876,
+              "h": 600867.1713177403,
+              "s": 1989.633099835456
+            },
+            "length_residual_m": -5.8203123431965764e-09
+          },
+          "pressure_closure_Pa": 0.028650100979575654,
+          "pressure_iterations": 2,
+          "performance": {
+            "net_AC_efficiency": 0.5283318119230976,
+            "AC_RTE": 0.5235768256157898,
+            "thermal_input_MW": 94.63749649676186,
+            "aux_MW": 0.9028226982534847,
+            "mass_flow_kg_s": 307.3526110959963,
+            "gross_AC_MW": 50.90282269825347,
+            "net_AC_MW": 49.99999999999999,
+            "block_capex_USD": 65499570.09739043,
+            "block_capex_USD_per_gross_design_kW": 1282.8280758511044,
+            "block_capex_USD_per_delivered_net_kW": 1309.9914019478088,
+            "LCOS_24h_USD_per_MWh": 82.47766095695258,
+            "LCOS_100h_USD_per_MWh": 98.4974604662977
+          },
+          "hottest_LTR_terminal_C": 229.7732367366733
+        },
+        "summer": {
+          "ambient_C": 42,
+          "split": 0.34,
+          "main_compressor_inlet_K": 325.1563,
+          "main_compressor_outlet_K": 348.11622679997646,
+          "turbine_inlet_Pa": 29226261.653651733,
+          "shaft_efficiency": 0.510348706561447,
+          "thermal_input_J_kg": 299749.4105868796,
+          "heat_rejection_J_kg": 146772.69086899637,
+          "turbine_work_J_kg": 222677.4094785687,
+          "main_compressor_work_J_kg": 35258.66062416362,
+          "recompressor_work_J_kg": 34442.024868834975,
+          "cycle_first_law_residual": -1.4237515537779783e-08,
+          "hot_tear_residual_J_kg": -0.004267686977982521,
+          "HTR": {
+            "epsilon": 0.954297472735069,
+            "pinch_K": 20.15337141767168,
+            "duty_J_per_kg": 474874.6800275154,
+            "hot_dp_Pa": 31918.541803738437,
+            "cold_dp_Pa": 24362.050697822313,
+            "hot_in": {
+              "p": 7997092.008707924,
+              "t": 938.618577466156,
+              "h": 1185604.1737565158,
+              "s": 3089.4588573190135
+            },
+            "cold_in": {
+              "p": 29334447.399374973,
+              "t": 515.757465325302,
+              "h": 633657.4926206896,
+              "s": 2054.6998528319314
+            },
+            "hot_out": {
+              "p": 7965173.485950087,
+              "t": 535.9108367429736,
+              "h": 710729.4937290004,
+              "s": 2432.2979704146514
+            },
+            "cold_out": {
+              "p": 29310085.345234692,
+              "t": 885.6628873937256,
+              "h": 1108532.172648205,
+              "s": 2751.3360515505888
+            },
+            "length_residual_m": -5.5296886847244764e-08
+          },
+          "LTR": {
+            "epsilon": 0.9491169279965517,
+            "pinch_K": 11.884172474891898,
+            "duty_J_per_kg": 200685.7375259489,
+            "hot_dp_Pa": 43448.486269226174,
+            "cold_dp_Pa": 15552.595436685413,
+            "hot_in": {
+              "p": 7965173.485950087,
+              "t": 535.9108405235473,
+              "h": 710729.4979966874,
+              "s": 2432.2979783780784
+            },
+            "cold_in": {
+              "p": 29350000.0,
+              "t": 348.11622679997646,
+              "h": 341083.10858462827,
+              "s": 1358.0623321156675
+            },
+            "hot_out": {
+              "p": 7921725.0,
+              "t": 365.4294335302309,
+              "h": 510043.7604707385,
+              "s": 1980.0440783093948
+            },
+            "cold_out": {
+              "p": 29334447.399374973,
+              "t": 524.0266680486554,
+              "h": 645152.407866369,
+              "s": 2076.8108569450187
+            },
+            "length_residual_m": -2.1211304934709574e-08
+          },
+          "pressure_closure_Pa": 0.01904590152844321,
+          "pressure_iterations": 2,
+          "performance": {
+            "net_AC_efficiency": 0.48926508600815644,
+            "AC_RTE": 0.48486170023408304,
+            "thermal_input_MW": 92.12876401836331,
+            "aux_MW": 0.9362270777538693,
+            "mass_flow_kg_s": 307.3526110959963,
+            "gross_AC_MW": 46.01161472902354,
+            "net_AC_MW": 45.07538765126967,
+            "block_capex_USD": 65499570.09739043,
+            "block_capex_USD_per_gross_design_kW": 1282.8280758511044,
+            "block_capex_USD_per_delivered_net_kW": 1453.1116316543857,
+            "LCOS_24h_USD_per_MWh": 89.86159668011936,
+            "LCOS_100h_USD_per_MWh": 107.05197558299872
+          },
+          "hottest_LTR_terminal_C": 262.76084052354736
+        }
+      },
+      "LTR_275C_elastic_screen_covers_fluid_terminal": true
+    }
+  }
+}

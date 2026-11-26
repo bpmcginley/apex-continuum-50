@@ -1,0 +1,79 @@
+{
+  "exit": 0,
+  "max_Co": 0.653167,
+  "final_mean": [
+    6222.383165918196,
+    27215.51021161113,
+    20968.605916258944,
+    1.1742653269321168e-08,
+    0.06912252951098634,
+    0.1963068758922221,
+    0.22545008599479277,
+    0.2254401190642753,
+    0.19629870095088323
+  ],
+  "previous_mean": [
+    6220.936234093557,
+    27214.48219704855,
+    20969.350663590172,
+    1.2285876610490831e-08,
+    0.06923822795896065,
+    0.19627360078914594,
+    0.22546975935651042,
+    0.22546673417556903,
+    0.19628568985023875
+  ],
+  "pressure_window_drift_fraction": 0.0002325906857409965,
+  "max_mass_imbalance_fraction": 2.8003459505494754e-08,
+  "max_port_deviation_fraction": 0.06917408041074946,
+  "residence_times": 5.990096744193228,
+  "last_sample_s": 0.757011,
+  "passes": {
+    "duration": true,
+    "pressure_window": true,
+    "mass": true,
+    "port_preferred": false,
+    "port_fallback": true,
+    "header_pressure": true
+  },
+  "state": {
+    "p": 29337611.883675132,
+    "t": 484.26735305885705,
+    "h": 588413.9081517012,
+    "s": 1964.1394781867643
+  },
+  "nominal_plant_mass_kg_s": 309.0502926240723,
+  "nominal_LTR_mass_flux_iso": 450.0,
+  "rho": 365.3467779103133,
+  "mu": 3.425719427900194e-05,
+  "mach": 0.012406898865263508,
+  "residence_s": 0.12637709077634562,
+  "sigma": [
+    0.62,
+    0.64,
+    0.64,
+    0.62
+  ],
+  "baffle_K": [
+    1.8276090610741988,
+    1.5796274038461515,
+    1.5796274038461515,
+    1.8276090610741988
+  ],
+  "core_K": 6.549324512647346,
+  "specified_core_drop_Pa": 20500.0,
+  "pressure_planes": {
+    "header_end_offset_upstream_of_core_m": 0.009285714285714286,
+    "core_out_offset_downstream_m": 0.01
+  },
+  "vane_implementation": {
+    "type": "three zero-thickness full-span curved collector guide sheets",
+    "axial_bow_m": 0.003,
+    "anchors_m": [
+      0.212,
+      0.425,
+      0.638
+    ],
+    "collector_rise_m": 0.025
+  }
+}
